@@ -1,0 +1,43 @@
+{
+  "name": "testcafe-reporter-csv",
+  "version": "1.0.0",
+  "description": "CSV TestCafe reporter plugin.",
+  "repository": "https://github.com/JohnBerendsenQA/testcafe-reporter-csv",
+  "author": {
+    "name": "mail@johnberendsen.com",
+    "email": "mail@johnberendsen.com",
+    "url": "http://johnberendsen.com"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "preview": "gulp preview",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
+  },
+  "keywords": [
+    "testcafe",
+    "reporter",
+    "plugin",
+    "xunit",
+    "junit",
+    "nunit"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "callsite-record": "^4.1.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^7.0.0",
+    "normalize-newline": "^3.0.0",
+    "publish-please": "^5.5.1",
+    "read-file-relative": "^1.2.0",
+    "testcafe": "^1.8.2"
+  }
+}
