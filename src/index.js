@@ -21,7 +21,7 @@ module.exports = () => ({
     reportTestDone (name, testRunInfo) {
         const errors      = testRunInfo.errs;
         const hasErrors   = !!errors.length;
-        const result      = hasErrors ? 'failed' : 'passed';
+        const result      = hasErrors ? 'failed!' : 'passed!';
         const resultLine = `${this.currentFixtureName}, ${name}, ${result}`;
 
         this.newline()
